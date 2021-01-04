@@ -1,9 +1,8 @@
 class Player
-  attr_accessor :lives, :is_active
+  attr_accessor :lives
 
   def initialize()
     @lives = 3
-    @is_active = false
   end
 
 end
